@@ -1,0 +1,195 @@
+
+html{
+	background-image:url( ../img/fond.jpg);
+	background-repeat:no-repeat;
+	background-size:auto;
+	opacity: 0.9;
+	width:auto;
+}
+
+body {
+	width:auto;
+}
+
+
+header h1 {
+	width: auto;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+
+h1 {
+	font-weight:bold;
+	width: auto;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.85);
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+#map {
+	border-collapse: collapse;
+	border-left:50px;
+	border-spacing: 0;
+	max-width:640px;
+	padding:0;
+	margin:0 auto;
+	background-color: white;
+	border:solid 5px;
+}
+.box{
+	margin-left:0px;
+	display:block;
+	width:300px;
+	min-height:300px;
+}
+#players {
+	width:300px;
+	position:absolute;
+	
+	margin-right:0px;
+
+}
+
+#player1 {	
+	min-height:150px;
+	width:150px;
+	color: black;
+	background-color:#E60303;
+  margin-left:0px;
+}
+
+#player2 {margin-left:0px;
+	min-height:150px;
+	width:150px;
+	color: black;
+	background-color:#D2B9DF;
+	z-index:3;
+}
+
+#attack {
+	margin-left:50px;
+	text-align:center;
+	background: url(../img/attack.jpg);
+	background-repeat:no-repeat;
+	min-height:100px;
+	background-size: 65%;
+	opacity: 0.5;
+}
+
+#defend {
+	margin-top:-40px;
+	margin-left: 50px;
+	text-align:center;
+	background: url(../img/defend.jpg);
+	background-repeat:no-repeat;
+	min-height:100px;
+	background-size:65%;
+	opacity: 0.5;
+}
+
+
+#newgame {
+	font-weight:bold;
+	width: auto;
+	height: 40px;
+	margin: auto;
+	margin-top: 10px;
+}
+ul{
+	border: 1px solid;
+}
+
+#armesPts{
+	float: right;
+	max-width: 120px;
+	margin-right: 0px;
+	position:relative;
+	
+}
+
+.square {
+	margin:0;
+	display:block;
+	width:62px;
+	height: 62px;
+	padding:0;
+    border-spacing: 0;
+}
+
+
+.wall{
+	background-position:center;
+	background-image: url(../img/mur.png);
+	z-index:-1;
+}
+
+.player1 {
+	background-position: center;
+	background-size: 100%;
+    background-repeat:no-repeat;
+	background-image: url(../img/p1.png);
+	z-index:3;
+}
+
+.player2 {	
+	background-position: center;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-image: url(../img/p2.png);
+	z-index:3;
+}
+.katana {   
+	background-repeat:no-repeat;
+	background-size:70px;
+	background-position:center;
+	background-image: url(../img/katana.png);
+	opacity:1;
+	z-index:1;
+}
+
+.kusarigama {   
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100px;
+	background-image: url(../img/kusarigama.png);
+	opacity:1;
+	z-index:1;
+}
+
+
+.nunchaku{
+	background-size:64px;
+	background-position:center;
+	background-image: url(../img/nunchaku.png);
+	opacity:1;
+	z-index:1;
+}
+.kunai{
+	background-size:75px;
+	background-position:center;
+	background-image: url(../img/kunai.png);
+	opacity:1;
+	z-index:1;
+}
+
+
+
+.move1 {
+	background-color: #E60303  ;
+	opacity:0.7;
+	z-index:-3;
+}
+
+.move2 {
+	opacity:0.7;
+	z-index:-3;
+	background-color: #D2B9DF;
+}
